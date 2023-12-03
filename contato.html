@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<title>	SCHWARTZ KAFFEE </title>
+		<link rel="stylesheet" type="text/css" href="css_estilo.css">
+		<link rel="stylesheet" type="text/css" href="css_form.css">
+		<script language="javascript" src=jsprincipal.js> </script>
+		
+	</head>
+<body>
+	<div class="Container">
+		<header id="topo">
+			<img id="icone" src="imagens/Logo.jpg"/>
+			
+		</header>
+			<nav id="menu">
+				<ul type="square">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="historico.html">Histórico</a></li>
+				<li><a href="produtos.html">Produtos</a></li>
+				<li><a href="pedidos.html">Pedidos</a></li>  
+				</ul>
+			</nav>	
+			
+			<body>
+			
+			<section id="corpo-full">
+			
+				<article id="noticia_principal">
+					<header id="cabecalho-artigo">
+							<hgroup>
+				
+							</hgroup>
+					</header>
+			
+			<form method="post" id="fContato" >
+
+				<fieldset id="usuario"><legend>Identificação do Usuário</legend>
+					<p><label for="cNome">Nome:</label>
+						<input type="text" name="tNome" id="cNome" size="30" maxlength="30" placeholder="Nome Completo" /></p>
+					<p><label for="cSenha">Senha:</label> 
+						<input type="password" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder="8 dígitos"/></p>
+					<p><label for="cEmail">E-mail:</label>  
+						<input type="email" name="tEmail" id="cEmail" size="30" maxlength="40" placeholder="Email"/></p></p>
+				</fieldset>
+			
+				<fieldset id="endereco"><legend>Endereço do Usuário</legend>
+					<p><label for="cRua">Logradouro:</label>
+						<input type="text" name="tRua" id="cRua" size="27" maxlength="80" placeholder="Endereço"/></p>
+					<p><label for="cNum">Número:</label>  
+						<input type="number" name="tNum" id="cNum" min="30" max="99999"/></p>
+					<p><label for="cEst">Estado:</label>  
+						<select name="tEst" id="cEst">
+							<optgroup label="Regiao Sul">
+								<option value="RS">Rio Grande do Sul</option>
+								<option value="SC">Santa Catarina</option>
+								<option value="PR">Paraná</option>
+							</optgroup>
+							<optgroup label="Regiao Sudeste">
+								<option value="SP">São Paulo</option>
+								<option value="RJ">Rio de Janeiro</option>
+								<option value="MG">Minas Gerais</option>
+								<option value="ES">Esperito Santo</option>
+							</optgroup>
+						</select></p>
+					<p><label for="cCid">Cidade:</label>  
+						<input type="text" name="tCid" id="cCid" size="30" maxlength="80" placeholder="Cidade"/></p></p>
+				</fieldset>
+			
+			
+			
+			
+			</form>
+			
+				</article>
+			</section>
+			
+			<footer id="rodape">
+			
+			
+			
+			</footer>
+			
+			</div>
+			</body>
+			</html>

@@ -1,0 +1,202 @@
+
+		
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<title>	SCHWARTZ KAFFEE </title>
+		<link rel="stylesheet" type="text/css" href="css_estilo.css">
+		<link rel="stylesheet" type="text/css" href="css_form.css">
+		<script src="pedido.js" async></script>
+		
+	</head>
+<body>
+	<div class="Container">
+		<header id="topo">
+			<img id="icone" src="imagens/Logo.jpg"/>
+			
+		</header>
+			<nav id="menu">
+				<ul type="square">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="historico.html">Histórico</a></li>
+				<li><a href="produtos.html">Produtos</a></li>
+				<li><a href="pedidos.html">Pedidos</a></li>  
+				</ul>
+			</nav>	
+			
+			<body>
+
+			<aside id="esq">
+				
+			</aside>
+
+			<section>	
+				
+				
+				<fieldset id="form1">
+					<div class="products-container">
+						<div class="movie-product">
+						<strong class="product-title">Café em Grãos</strong>
+						<img src="imagens/cafe_graos.jpg" alt="Cafe 1" class="product-image">
+						<div class="product-price-container">
+						<span class="product-price">R$64,00</span>
+						<button type="button" class="button-hover-background">Adicionar ao carrinho</button>
+					</div>
+				</fieldset>	
+
+				<fieldset id="form1">
+					<div class="products-container">
+						<div class="movie-product">
+						<strong class="product-title">Café em Pó</strong>
+						<img src="imagens/cafe_po.jpg" alt="Cafe 2" class="product-image">
+						<div class="product-price-container">
+						<span class="product-price">R$36,00</span>
+						<button type="button" class="button-hover-background">Adicionar ao carrinho</button>
+						</div>
+				</fieldset>	
+			
+				<fieldset id="form2">
+					<div class="products-container">
+						<div class="movie-product">
+					    <strong class="product-title">Café em Cápsulas</strong>
+						<img src="imagens/cafe_capsulas.jpg" alt="Cafe 3" class="product-image">
+						<div class="product-price-container">
+						<span class="product-price">R$38,00</span>
+						<button type="button" class="button-hover-background">Adicionar ao carrinho</button>
+					</div>
+				</fieldset>
+				
+
+				<fieldset id="form1">
+					<div class="products-container">
+						<div class="movie-product">
+						<strong class="product-title">Café Solúvel</strong>
+						<img src="imagens/cafe_soluvel.jpg" alt="Cafe 4" class="product-image">
+						<div class="product-price-container">
+						<span class="product-price">R$27,00</span>
+						<button type="button" class="button-hover-background">Adicionar ao carrinho</button>
+					</div>
+				</fieldset>	
+
+				<fieldset id="form1">
+					<div class="products-container">
+						<div class="movie-product">
+						<strong class="product-title">Café em Sache</strong>
+						<img src="imagens/cafe_saches.jpg" alt="Poster 1" class="product-image">
+						<div class="product-price-container">
+						<span class="product-price">R$22,00</span>
+						<button type="button" class="button-hover-background">Adicionar ao carrinho</button>
+					</div>	
+				</fieldset>	
+
+
+			
+				<form method="post" id="fContato" >
+				
+					<fieldset id="pagamento"><legend>Pagamento</legend>
+					<h4> <label for="cPag">Formas de Pagamento:</label>
+						<select name="tpag" id="cPag">
+							<optgroup>
+								<option value="1">Cartão de Débito</option>
+								<option value="2">Cartão de Crédito</option>
+								<option value="3">PIX</option>
+							</optgroup>
+
+						</select>
+					</fieldset>
+
+
+				<fieldset id="usuario"><legend>Endereço de Entrega</legend>
+					<h4><label for="cNome">Nome:</label>
+						<input type="text" name="tNome" id="cNome" size="30" maxlength="30"  value="" /></p>
+					<h4><label for="cRua">Logradouro:</label>
+						<input type="text" name="tRua" id="cRua"  size="30" maxlength="80" value=""/></p>
+					<h4><label for="cNum">Número:</label>  
+						<input type="number" name="tNum" id="cNum" min="30" max="99999" value=""/></p>
+					<h4><label for="cNum">Complemento:</label>  
+						<input type="text" name="tCom" id="cCom" size="30" maxlength="80"/></p>
+					<h4><label for="cEst">Estado:</label>  
+						<select name="tEst" id="cEst" value="RS" >
+							<optgroup>
+								<option value="RS">Rio Grande do Sul</option>
+								<option value="AC">Acre</option>
+								<option value="AL">Alagoas</option>
+								<option value="AP">Amapá</option>
+								<option value="AM">Amazonas</option>
+								<option value="BA">Bahia</option>
+								<option value="CE">Ceará</option>
+								<option value="DF">Distrito Federal</option>
+								<option value="ES">Espirito Santo</option>
+								<option value="GO">Goiás</option>
+								<option value="MA">Maranhão</option>
+								<option value="MT">Mato Grosso</option>
+								<option value="MS">Mato Grosso do Sul</option>
+								<option value="MG">Minas Gerais</option>
+								<option value="PA">Pará</option>
+								<option value="PB">Paraíba</option>
+								<option value="PR">Paraná</option>
+								<option value="PE">Pernambuco</option>
+								<option value="PI">Piauí</option>
+								<option value="RJ">Rio de Janeiro</option>
+								<option value="RN">Rio Grande do Norte</option>
+								<option value="RS">Rio Grande do Sul</option>
+								<option value="RO">Rondônia</option>
+								<option value="RR">Roraima</option>
+								<option value="SC">Santa Catarina</option>
+								<option value="SP">São Paulo</option>
+								<option value="SE">Sergipe</option>
+								<option value="TO">Tocatins</option>
+							</optgroup>
+						</select></p>
+					<h4><label for="cCid">Cidade:</label>  
+						<input type="text" name="tCid" id="cCid" size="30" maxlength="80" value="Porto Alegre"/></p></p>
+				</fieldset>
+
+				
+				
+
+				</fieldset>
+			</form>
+			</article>
+			</section>
+			
+		<aside id="dir">
+		<h2 class="section-title">Carrinho</h2>
+
+    	<table class="cart-table">
+          <thead>
+            <tr>
+              <th class="table-head-item first-col">Item</th>
+              <th class="table-head-item second-col">Preço</th>
+              <th class="table-head-item third-col">Quantidade</th>
+            </tr>
+          </thead>
+
+		  <tbody> </tbody>
+		  
+		  <tfoot>
+            <tr>
+              <td colspan="3" class="cart-total-container">
+              <strong>Total</strong>
+              <span>R$0,00</span>
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+
+        <button type="button" class="purchase-button">Finalizar Compra</button>
+      </section>
+
+	  			<div id="p1"></div>
+				<div id="p2"></div>
+				<div id="p3"></div>
+				<div id="p4"></div>
+				<div id="p5"></div>
+				
+	  </aside>
+			
+			
+			</div>
+			</body>
+			</html>
